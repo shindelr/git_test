@@ -1,0 +1,32 @@
+Some Command Line & Git Command Tricks
+(*Note: They're not really tricks, they're faster ways to do things)
+
+Normal ol' Command Line:
+
+cd [desired directory]
+    Navigates into the directory that you specify
+
+tab button
+    Pressing tab auto completes a directory that you're typing into a path if it's the only one starting with that name.
+    If there are multiple of directories starting with the same letter, it will list all of them.
+
+mkdir [new file name]
+    This creates a new directory in the file path that you've specified.
+
+code .
+    Opens all files in the directory in VSCode in a single go.
+
+
+Git Commands:
+
+    git status
+        Reports all the files in a directory that are either changed and not staged, or changed and staged.
+        Put files in the staging area so that you can queue them up for a commit.
+
+    git add [file]
+        Places the specified file in the in the staging area.
+
+    
+
+
+
