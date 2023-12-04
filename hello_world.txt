@@ -16,6 +16,9 @@ mkdir [new file name]
 code .
     Opens all files in the directory in VSCode in a single go.
 
+.
+    A period seems to target all the files in the current directory.
+
 
 Git Commands:
 
@@ -26,7 +29,12 @@ Git Commands:
     git add [file]
         Places the specified file in the in the staging area.
 
-    
+    git add .
+        Places all files in the directory into the staging area.
+
+    git commit -m "[Helpful commitment message]"
+        Commit all files in the staging area to the repository. Add a helpful message about what changes were
+        made in this version and all that.
 
 
 
