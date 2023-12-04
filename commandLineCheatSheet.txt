@@ -24,7 +24,8 @@ Git Commands:
 
     git status
         Reports all the files in a directory that are either changed and not staged, or changed and staged.
-        Put files in the staging area so that you can queue them up for a commit.
+        Put files in the staging area so that you can queue them up for a commit. Also tells you how many commits
+        you are ahead of the last time you pushed.
 
     git add [file]
         Places the specified file in the in the staging area.
@@ -43,4 +44,8 @@ Git Commands:
         Uploads all the work that's been committed up into GitHub. If you're only dealing with one branch in project, `origin main`,
         then you can just type `git push`, otherwise you can specify which branch you'd like to push.
 
+    git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+        Clones the desired repository to your local machine.
+    
+    
 
