@@ -33,8 +33,14 @@ Git Commands:
         Places all files in the directory into the staging area.
 
     git commit -m "[Helpful commitment message]"
-        Commit all files in the staging area to the repository. Add a helpful message about what changes were
+        Commit all files in the staging area. Add a helpful message about what changes were
         made in this version and all that.
 
+    git log
+        Displays all the commits made in this project.
+
+    git push [branch]
+        Uploads all the work that's been committed up into GitHub. If you're only dealing with one branch in project, `origin main`,
+        then you can just type `git push`, otherwise you can specify which branch you'd like to push.
 
 
